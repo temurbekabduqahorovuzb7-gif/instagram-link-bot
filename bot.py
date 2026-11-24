@@ -12,7 +12,7 @@ from telegram.ext import (
 
 TOKEN = os.environ["BOT_TOKEN"]
 
-server = Flask(name)
+server = Flask(__name__)
 
 @server.route("/")
 def home():
