@@ -49,5 +49,5 @@ def main():
     print("Bot ishga tushdi!")
     bot.run_polling()
 
-if name == "main":
+if name == "__main__":
     main()
